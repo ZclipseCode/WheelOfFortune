@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 
 public enum Category
 {
@@ -36,6 +37,7 @@ public enum Category
     Things,
     Titles,
     TitleAndAuthor,
+    [Description("WHAT ARE YOU DOING?")]
     WhatAreYouDoing,
     WhatAreYouWearing
 }

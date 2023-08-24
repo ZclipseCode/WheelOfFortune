@@ -4,12 +4,10 @@ public class Phrase
 {
     public string spelling;
     public Category category;
-    public string visibleCategory;
 
-    public Phrase(string spelling, Category category, string visibleCategory)
+    public Phrase(string spelling, Category category)
     {
         this.spelling = spelling;
         this.category = category;
-        this.visibleCategory = visibleCategory;
     }
 }
